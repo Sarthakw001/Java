@@ -9,12 +9,12 @@
 //}
 
 //class Predicates {
-    //         Java Stream API
-    //         Functional Programming
-    //                - Lambda Expression
+//         Java Stream API
+//         Functional Programming
+//                - Lambda Expression
 //    public static void main(String[] args) {
 
-        // Predicates
+// Predicates
 //        Predicate<Integer> isEven = x -> x % 2 == 0;
 //        System.out.println(isEven.test(10));
 

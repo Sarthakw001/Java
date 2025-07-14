@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.function.Predicate;
-
 //class User {
 //    int age;
 //    boolean isActive;
@@ -13,7 +8,7 @@ import java.util.function.Predicate;
 //    }
 //}
 
-//class Basics {
+//class Predicates {
     //         Java Stream API
     //         Functional Programming
     //                - Lambda Expression

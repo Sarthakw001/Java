@@ -3,21 +3,21 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
-class User {
-    int age;
-    boolean isActive;
+//class User {
+//    int age;
+//    boolean isActive;
+//
+//    User(int age, boolean isActive) {
+//        this.age = age;
+//        this.isActive = isActive;
+//    }
+//}
 
-    User(int age, boolean isActive) {
-        this.age = age;
-        this.isActive = isActive;
-    }
-}
-
-class Basics {
+//class Basics {
     //         Java Stream API
     //         Functional Programming
     //                - Lambda Expression
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 
         // Predicates
 //        Predicate<Integer> isEven = x -> x % 2 == 0;
@@ -83,20 +83,22 @@ class Basics {
 //            System.out.println("Prefix not matched");
 //        }
 
-        List<String> names = new ArrayList<>(List.of("John","Peter","Sarthak","Krishna"));
+//        Predicate<String> isPalindrome = data -> {
+//            for(int i=0,j=data.length()-1;i<data.length()/2;i++,j--){
+//                if(data.charAt(i) != data.charAt(j)){
+//                    return false;
+//                }
+//            }
+//            return true;
+//        };
+//
+//        List<String> names = new ArrayList<>(List.of("John","Peter","Sarthak","Krishna","aaaa","madam","racecar","level","civic","radar",""));
+//        names.removeIf(isPalindrome.negate());
+//
+//        names.forEach(System.out::println);
 
-        
 
-        Predicate<String> isPalindrome = data -> {
-            for(int i=0,j=data.length()-1;i<data.length()/2;i++,j--){
-                if(data.charAt(i) != data.charAt(j)){
-                    return false;
-                }
-            }
-            return true;
-        };
-
-    }
+//    }
 
 //    static Predicate<String> customPredicate(String prefix){
 //        return val -> val.startsWith(prefix);
@@ -137,4 +139,4 @@ class Basics {
 //            }
 //        }
 //    }
-}
+//}

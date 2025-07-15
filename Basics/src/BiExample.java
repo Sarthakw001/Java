@@ -3,6 +3,7 @@
 //import java.util.function.BiPredicate;
 //import java.util.function.Function;
 //
+//
 //public class BiExample {
 //    public static void main(String[] args) {
 //        // A BiFunction is a functional interface that takes two inputs and returns a result.
